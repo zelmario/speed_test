@@ -14,7 +14,7 @@ threads = None
 s = speedtest.Speedtest()
 s.get_servers(servers)
 
-#bucle *will run every 5 mins)
+#bucle (will run every 5 mins)
 while True:
     if datetime.datetime.now().strftime('%T')[4:] == '0:00' or datetime.datetime.now().strftime('%T')[4:] == '5:00':
         time = datetime.datetime.now().strftime('%T')
